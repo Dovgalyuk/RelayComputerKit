@@ -1,0 +1,84 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5be6bb40-ee87-49c6-ad9c-f0659d68694a")
+	(paper "User" 26.67 25.4)
+	(lib_symbols)
+	(junction
+		(at 13.97 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be94844-8649-4a2f-b399-04ab74e8fd51")
+	)
+	(wire
+		(pts
+			(xy 3.81 16.51) (xy 13.97 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcd300c-900e-4dcc-8258-b8d24e053d19")
+	)
+	(wire
+		(pts
+			(xy 13.97 10.16) (xy 13.97 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4776cdb2-c17f-4b33-9442-ed6984ec1bbb")
+	)
+	(wire
+		(pts
+			(xy 13.97 16.51) (xy 22.86 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0eb39d-9db4-4c60-980f-58d187f1f834")
+	)
+	(wire
+		(pts
+			(xy 3.81 10.16) (xy 13.97 10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cf044e-f3dc-4da3-a6f5-869f2ffe33b9")
+	)
+	(label "A"
+		(at 3.81 10.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18940b52-9e30-48a6-a74b-fdebbce7ef4f")
+	)
+	(label "B"
+		(at 3.81 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af58a27e-22ad-4902-abc4-c45d53e5890f")
+	)
+	(label "C"
+		(at 21.59 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b070446f-abe9-4154-8dfb-cf318d3f629e")
+	)
+)
