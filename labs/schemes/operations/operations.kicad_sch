@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 86.36 46.99)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f2768ad-4876-403c-b4c6-fbae397289e1")
+		(property "Sheetname" "add"
+			(at 86.36 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "add.kicad_sch"
+			(at 86.36 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "operations"
+				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 114.3 21.59)
 		(size 19.05 15.24)
 		(exclude_from_sim no)
@@ -132,6 +174,48 @@
 		)
 	)
 	(sheet
+		(at 25.4 46.99)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ec52aac-fd6a-48fa-b224-c8bbddae2d63")
+		(property "Sheetname" "not"
+			(at 25.4 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "not.kicad_sch"
+			(at 25.4 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "operations"
+				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 21.59)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
@@ -169,6 +253,48 @@
 			(project "operations"
 				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 46.99)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "beb135e2-6e65-4ef9-a2bf-d2249fc70c4e")
+		(property "Sheetname" "shr"
+			(at 55.88 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shr.kicad_sch"
+			(at 55.88 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "operations"
+				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340"
+					(page "7")
 				)
 			)
 		)

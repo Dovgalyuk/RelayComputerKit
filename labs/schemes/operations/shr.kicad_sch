@@ -1,0 +1,258 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fe81cf51-578b-43e7-a844-9eeee008682e")
+	(paper "User" 34.29 25.4)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 15.24 8.89) (xy 27.94 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b214b42-33bf-4bfd-8b35-aeaf3eaf60b7")
+	)
+	(wire
+		(pts
+			(xy 6.35 19.05) (xy 22.86 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c62fc4e-b5ac-4ad5-b63c-c9b85ee3ac25")
+	)
+	(wire
+		(pts
+			(xy 20.32 16.51) (xy 20.32 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4643726f-64ec-4168-9610-034c8ea3d819")
+	)
+	(wire
+		(pts
+			(xy 12.7 6.35) (xy 27.94 6.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1543ce-3c99-4c33-b4f9-ac00802979a3")
+	)
+	(wire
+		(pts
+			(xy 12.7 8.89) (xy 12.7 6.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c687694-f4c8-44f6-9c96-acc35b7cc846")
+	)
+	(wire
+		(pts
+			(xy 20.32 13.97) (xy 27.94 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e8fd88-db56-446a-854a-7d84c0e06d69")
+	)
+	(wire
+		(pts
+			(xy 6.35 8.89) (xy 12.7 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfcbc09-c1e6-40ed-8e07-e24377d8eeba")
+	)
+	(wire
+		(pts
+			(xy 22.86 19.05) (xy 22.86 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cfdc1b-33d3-424c-b50e-3e194b967561")
+	)
+	(wire
+		(pts
+			(xy 6.35 11.43) (xy 15.24 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9587d2f-69b6-4a3a-a3eb-008502c48b4b")
+	)
+	(wire
+		(pts
+			(xy 17.78 11.43) (xy 27.94 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27a8b23-c56b-4d73-9a2f-0c3fa4067951")
+	)
+	(wire
+		(pts
+			(xy 22.86 16.51) (xy 27.94 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3b8675-9a0a-423e-8108-fa18433565cb")
+	)
+	(wire
+		(pts
+			(xy 6.35 13.97) (xy 17.78 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb96c8f-c098-4f1a-aef8-edcadec70680")
+	)
+	(wire
+		(pts
+			(xy 17.78 13.97) (xy 17.78 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c86ba8-78bf-4356-b38d-a8451326eaa7")
+	)
+	(wire
+		(pts
+			(xy 15.24 11.43) (xy 15.24 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb268c5b-aae6-4105-a008-27e8760d8c71")
+	)
+	(wire
+		(pts
+			(xy 6.35 16.51) (xy 20.32 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb978f4-8a83-4a67-9be2-ad2062525656")
+	)
+	(label "IN1"
+		(at 6.35 11.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13379011-90db-41e4-a9d3-685b7b8b4e65")
+	)
+	(label "OUT1"
+		(at 22.86 11.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d15be93-26bc-4147-a864-3311ffed31e4")
+	)
+	(label "OUT2"
+		(at 22.86 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aab1114-492f-4ffb-aae0-08299c6852d8")
+	)
+	(label "OUT3"
+		(at 22.86 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d294c43-6d77-45a6-9d83-3f3341e9b8ad")
+	)
+	(label "OUT0"
+		(at 22.86 8.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc2ca7b-e8b5-4507-9e39-9c9c3936e6f5")
+	)
+	(label "CY_IN"
+		(at 6.35 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "886743e9-229d-40d2-8249-29ec3d7219a0")
+	)
+	(label "IN2"
+		(at 6.35 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8faf89c1-4c30-40d4-82ab-665ea74baabe")
+	)
+	(label "IN3"
+		(at 6.35 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5a38905-4d7e-46d8-93f7-9160043035dd")
+	)
+	(label "CY_OUT"
+		(at 21.59 6.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f12181dd-ed3c-48a2-b2af-2e989088d158")
+	)
+	(label "IN0"
+		(at 6.35 8.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f40333ba-31f9-4adb-ac21-2b382623b806")
+	)
+)

@@ -1,5 +1,7 @@
-for f in ./schemes/operations/*.kicad_sch; do
-  ./export_scheme.sh $f
+for d in ./schemes/*/ ; do
+  for f in $d/*.kicad_sch; do
+    ./export_scheme.sh $f
+  done
+  rm ${d%?}.png
 done
-rm schemes/operations.png
 rm schemes/*.svg

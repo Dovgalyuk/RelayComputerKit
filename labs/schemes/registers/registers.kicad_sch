@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ab0429f0-9972-454a-bd89-4e26a015f7d3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 20.32)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d6527b1-77bc-4762-b5ed-4f4003938a07")
+		(property "Sheetname" "trigger1"
+			(at 21.59 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trigger1.kicad_sch"
+			(at 21.59 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "registers"
+				(path "/ab0429f0-9972-454a-bd89-4e26a015f7d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 20.32)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae6cee20-da1c-4ff6-bbae-5b8f090ed09f")
+		(property "Sheetname" "trigger2"
+			(at 58.42 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trigger2.kicad_sch"
+			(at 58.42 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "registers"
+				(path "/ab0429f0-9972-454a-bd89-4e26a015f7d3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 20.32)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c64453cf-a6db-47cb-b396-e2a7f18a8997")
+		(property "Sheetname" "bus"
+			(at 95.25 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus.kicad_sch"
+			(at 95.25 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "registers"
+				(path "/ab0429f0-9972-454a-bd89-4e26a015f7d3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

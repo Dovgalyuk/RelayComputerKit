@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "operations.kicad_pro",
+    "filename": "relay.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -409,36 +409,16 @@
   },
   "sheets": [
     [
-      "ef21cd22-a9e7-4e45-b09f-de717f45c340",
+      "5c1fc490-b475-4768-befc-b1eff004344c",
       "Root"
     ],
     [
-      "7d9f7fae-bca4-4232-9803-e89af1bcbd46",
-      "and"
+      "29323379-3f3e-40dc-be76-5e0048e112d6",
+      "one_relay"
     ],
     [
-      "1492c47b-ab21-4cb2-b64a-54c154af3bf2",
-      "or1"
-    ],
-    [
-      "0dc78c12-4d6a-4192-acf3-e5d2d3c4721e",
-      "or2"
-    ],
-    [
-      "2ed9b101-536d-4009-8044-6c00d904e446",
-      "xor"
-    ],
-    [
-      "4ec52aac-fd6a-48fa-b224-c8bbddae2d63",
-      "not"
-    ],
-    [
-      "beb135e2-6e65-4ef9-a2bf-d2249fc70c4e",
-      "shr"
-    ],
-    [
-      "1f2768ad-4876-403c-b4c6-fbae397289e1",
-      "add"
+      "ccd65fec-d987-4712-9a47-dcefdd26f975",
+      "diode"
     ]
   ],
   "text_variables": {}
