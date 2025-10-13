@@ -562,8 +562,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "relay:MY4N socket"
+				(at -8.128 -58.674 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1092,7 +1092,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1254,7 +1254,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "relay:MY4N socket"
 			(at 69.85 11.43 0)
 			(effects
 				(font
@@ -1740,7 +1740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "relay:MY4N socket"
 			(at 22.86 11.43 0)
 			(effects
 				(font
@@ -2103,6 +2103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "relay"
 				(path "/5c1fc490-b475-4768-befc-b1eff004344c/ccd65fec-d987-4712-9a47-dcefdd26f975"
@@ -2116,7 +2125,7 @@
 		(lib_id "Graphic:SYM_Arrow_Normal")
 		(at 41.91 45.72 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -2329,7 +2338,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "a6ed7ce4-4c8f-4681-8401-79fdc972a48f")
+			(uuid "a6ed7ce4-4c8f-4681-8401-79fdc972a490")
 		)
 		(pin "1"
 			(uuid "04699864-aa4f-422b-8804-e7ff73843b3e")
@@ -2338,7 +2347,7 @@
 			(uuid "5ba5584a-b315-486d-b314-b57edbd8d554")
 		)
 		(pin "3"
-			(uuid "21c7cf74-feaf-45cd-9da7-1674c17ded54")
+			(uuid "21c7cf74-feaf-45cd-9da7-1674c17ded55")
 		)
 		(instances
 			(project ""

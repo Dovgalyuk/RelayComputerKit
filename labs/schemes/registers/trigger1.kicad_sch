@@ -126,8 +126,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "relay:MY4N socket"
+				(at -8.128 -58.674 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -656,7 +656,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -818,7 +818,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -964,7 +964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "relay:MY4N socket"
 			(at 17.78 11.43 0)
 			(effects
 				(font
