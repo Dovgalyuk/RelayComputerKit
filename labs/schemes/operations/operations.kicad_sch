@@ -216,6 +216,48 @@
 		)
 	)
 	(sheet
+		(at 25.4 91.44)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73713f7f-b4c0-4889-8e11-3379ace2267a")
+		(property "Sheetname" "switches_and"
+			(at 25.4 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches_and.kicad_sch"
+			(at 25.4 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "operations"
+				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 21.59)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
@@ -253,6 +295,48 @@
 			(project "operations"
 				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 91.44)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a315d1d-f6f6-4d67-808d-8cdbaedd14a5")
+		(property "Sheetname" "switches_or"
+			(at 58.42 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches_or.kicad_sch"
+			(at 58.42 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "operations"
+				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340"
+					(page "10")
 				)
 			)
 		)

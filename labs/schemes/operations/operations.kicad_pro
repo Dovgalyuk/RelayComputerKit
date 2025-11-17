@@ -640,6 +640,14 @@
     [
       "1f2768ad-4876-403c-b4c6-fbae397289e1",
       "add"
+    ],
+    [
+      "73713f7f-b4c0-4889-8e11-3379ace2267a",
+      "switches_and"
+    ],
+    [
+      "8a315d1d-f6f6-4d67-808d-8cdbaedd14a5",
+      "switches_or"
     ]
   ],
   "text_variables": {}
