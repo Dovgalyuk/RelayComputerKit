@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 110.49 16.51)
+		(size 16.51 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "304f48b5-8726-4480-9685-84036ae6eda3")
+		(property "Sheetname" "simple_relay_on"
+			(at 110.49 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "simple_relay_on.kicad_sch"
+			(at 110.49 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "relay"
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 45.72 16.51)
 		(size 16.51 16.51)
 		(exclude_from_sim no)
@@ -85,6 +127,48 @@
 			(project "relay"
 				(path "/5c1fc490-b475-4768-befc-b1eff004344c"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 16.51)
+		(size 16.51 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb09005b-158a-4db1-b988-7ab7388868ff")
+		(property "Sheetname" "simple_relay_off"
+			(at 73.66 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "simple_relay_off.kicad_sch"
+			(at 73.66 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "relay"
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c"
+					(page "4")
 				)
 			)
 		)

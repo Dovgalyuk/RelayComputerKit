@@ -419,6 +419,14 @@
     [
       "ccd65fec-d987-4712-9a47-dcefdd26f975",
       "diode"
+    ],
+    [
+      "fb09005b-158a-4db1-b988-7ab7388868ff",
+      "simple_relay_off"
+    ],
+    [
+      "304f48b5-8726-4480-9685-84036ae6eda3",
+      "simple_relay_on"
     ]
   ],
   "text_variables": {}

@@ -2,8 +2,8 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "03f52ac0-001c-433b-bba8-6fc304e14155")
-	(paper "User" 39.37 25.4)
+	(uuid "d4a55e12-0ed6-4973-aa32-541c15b9b5bf")
+	(paper "User" 55.88 30.48)
 	(lib_symbols
 		(symbol "Device:Lamp"
 			(pin_numbers
@@ -137,183 +137,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SW_DPST_x2_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPST_x2"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPST_x2_1_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,132 +425,369 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "relay:4PDT"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K4"
+				(at 9.525 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "4PDT"
+				(at 9.525 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "relay:MY4N socket"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://edata.omron.com.au/eData/Relays/J111-E1-03.pdf"
+				(at -6.858 -50.292 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4PDT_0_1"
+				(rectangle
+					(start 5.08 -10.16)
+					(end 13.97 -23.495)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -13.97) (xy 6.985 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -19.05) (xy 7.62 -19.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -13.97) (xy 12.7 -12.065)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -21.59) (xy 11.43 -16.51)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -14.605) (xy 9.525 -13.97)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -15.875) (xy 9.525 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -19.05) (xy 13.97 -19.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -13.97) (xy 11.43 -13.97) (xy 12.065 -13.335) (xy 12.7 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4PDT_1_1"
+				(rectangle
+					(start 11.43 -15.875)
+					(end 7.62 -22.225)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -13.97 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -19.05 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -13.97 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -19.05 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "+V"
-		(exclude_from_sim no)
-		(at 2.286 13.97 0)
+	(junction
+		(at 11.43 12.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e02372-7f9d-456f-925a-003f7cbecb77")
+	)
+	(junction
+		(at 46.99 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea40e7c-f7b7-4853-aa20-58a1c8434635")
+	)
+	(wire
+		(pts
+			(xy 11.43 12.7) (xy 11.43 10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d95a272-21cf-4b6d-a94b-41af91d81249")
+	)
+	(wire
+		(pts
+			(xy 11.43 15.24) (xy 11.43 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3243c4be-171e-449d-b041-3fe43bc689c5")
+	)
+	(wire
+		(pts
+			(xy 46.99 15.24) (xy 46.99 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b33b24-7a11-4741-96ec-88b118eed624")
+	)
+	(wire
+		(pts
+			(xy 46.99 10.16) (xy 46.99 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b490b8-a35d-4a37-976c-511480955648")
+	)
+	(wire
+		(pts
+			(xy 45.72 10.16) (xy 46.99 10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe28743-e53c-4e1c-a6cb-cb3ca9dc9bd5")
+	)
+	(wire
+		(pts
+			(xy 11.43 10.16) (xy 21.59 10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1989b2-fafc-48bb-a11e-b2301f50e08a")
+	)
+	(wire
+		(pts
+			(xy 8.89 12.7) (xy 11.43 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9aec35e-9618-4195-bad7-aaeef21d4838")
+	)
+	(wire
+		(pts
+			(xy 35.56 15.24) (xy 46.99 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea58b377-685e-4db8-a1d5-bd65f68b51e9")
+	)
+	(label "+V"
+		(at 5.08 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(uuid "36f0d808-735f-428c-8567-4b4084c8d863")
-	)
-	(junction
-		(at 25.4 13.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80d33e5b-c3d8-472b-a652-313aa82f9c38")
-	)
-	(junction
-		(at 6.35 13.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e7d3468-f3b2-45ea-bb4f-919cd17ee95a")
-	)
-	(wire
-		(pts
-			(xy 6.35 13.97) (xy 6.35 8.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "038afdbb-b377-4336-8ccb-5545f57f6570")
-	)
-	(wire
-		(pts
-			(xy 25.4 19.05) (xy 20.32 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "042016cc-ed7c-47fa-be53-5b6c31946974")
-	)
-	(wire
-		(pts
-			(xy 3.81 13.97) (xy 6.35 13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd5c2bf-10b0-42f3-b8e6-27fdbc5ad8e7")
-	)
-	(wire
-		(pts
-			(xy 25.4 13.97) (xy 25.4 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a86e284-4649-485f-bdca-96c079f4b54c")
-	)
-	(wire
-		(pts
-			(xy 6.35 8.89) (xy 10.16 8.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8951a80a-3e93-419d-b7de-70ac041ca638")
-	)
-	(wire
-		(pts
-			(xy 10.16 19.05) (xy 6.35 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae73bc5-ecf1-4832-9f43-c5bc454b4927")
-	)
-	(wire
-		(pts
-			(xy 6.35 13.97) (xy 6.35 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b768fd13-987b-445a-bc21-f81b844c54e6")
-	)
-	(wire
-		(pts
-			(xy 25.4 8.89) (xy 25.4 13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe532b6-c0c0-423d-a0fb-376b019f01a2")
-	)
-	(wire
-		(pts
-			(xy 20.32 8.89) (xy 25.4 8.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de19a368-5002-4054-b4cf-60ad3cc03f82")
+		(uuid "5c2e59b4-f45a-4217-8517-715b0cfbf475")
 	)
 	(symbol
-		(lib_name "SW_DPST_x2_1")
-		(lib_id "Switch:SW_DPST_x2")
-		(at 15.24 8.89 0)
+		(lib_id "relay:4PDT")
+		(at 19.05 -3.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28eeeb77-b7f7-4bb8-91e5-00506b087785")
-		(property "Reference" "Операнд11"
-			(at 15.24 2.54 0)
+		(uuid "0f839ca9-cebb-4be1-9ffe-199f48a65fd6")
+		(property "Reference" "K4"
+			(at 28.575 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,16 +795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Операнд 1"
-			(at 15.24 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 15.24 8.89 0)
+		(property "Value" "4PDT"
+			(at 28.575 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,8 +804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 15.24 8.89 0)
+		(property "Footprint" "relay:MY4N socket"
+			(at 19.05 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,8 +813,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 15.24 8.89 0)
+		(property "Datasheet" "https://edata.omron.com.au/eData/Relays/J111-E1-03.pdf"
+			(at 12.192 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,22 +822,31 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "7e7694e9-f587-43ce-9059-60a34d1021b6")
+		(property "Description" ""
+			(at 19.05 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "ac286e5a-c235-4d19-a738-c1e4951382ed")
+		(pin "14"
+			(uuid "ec1b5ae7-309b-42ab-8fa8-111d55eb1bb4")
 		)
-		(pin "1"
-			(uuid "ec873eca-e29f-4d56-b2e5-5d519d79e639")
+		(pin "8"
+			(uuid "08e7cb9e-7a21-4f4a-9e7a-64c350e3d1ce")
 		)
-		(pin "4"
-			(uuid "ef4a2ead-2bf6-4830-954b-afce9e918e50")
+		(pin "13"
+			(uuid "4fbb3b25-6fbf-4150-87b9-1594ef57c308")
+		)
+		(pin "12"
+			(uuid "86145d86-fe2c-4555-8bc1-c230c79b3a42")
 		)
 		(instances
-			(project "operations"
-				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340/8a315d1d-f6f6-4d67-808d-8cdbaedd14a5"
-					(reference "Операнд11")
+			(project "relay"
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c/fb09005b-158a-4db1-b988-7ab7388868ff"
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -793,16 +854,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 13.97 0)
+		(at 46.99 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54ad148f-a8b2-4900-b9bd-02d757607f07")
-		(property "Reference" "#PWR09"
-			(at 35.56 20.32 0)
+		(uuid "155ef1eb-1bc4-49bd-a2c4-525dbeed7cc7")
+		(property "Reference" "#PWR?"
+			(at 46.99 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 19.05 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 13.97 0)
+			(at 46.99 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 13.97 0)
+			(at 46.99 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 13.97 0)
+			(at 46.99 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,12 +907,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e879433-1616-433f-b420-dd7e1b23e3bb")
+			(uuid "07056aaa-d19a-4177-a263-079f01346cff")
 		)
 		(instances
-			(project ""
-				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340/8a315d1d-f6f6-4d67-808d-8cdbaedd14a5"
-					(reference "#PWR09")
+			(project "relay"
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c/fb09005b-158a-4db1-b988-7ab7388868ff"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -859,16 +920,16 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 30.48 13.97 90)
+		(at 40.64 10.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ede81b1-2bd9-49a4-b159-e667ef6207c7")
-		(property "Reference" "LA2"
-			(at 30.48 6.35 90)
+		(uuid "34bd0e8a-ef1b-405f-9e9e-229d5238f8b7")
+		(property "Reference" "LA?"
+			(at 40.64 2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,16 +937,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Результат"
-			(at 30.48 8.89 90)
+		(property "Value" "Lamp"
+			(at 40.64 5.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 13.97 90)
+			(at 38.1 10.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 13.97 90)
+			(at 38.1 10.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +965,7 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 30.48 13.97 0)
+			(at 40.64 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,15 +974,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d650abcf-7383-4567-9268-fa8bd328883c")
+			(uuid "bbf95aed-41c8-4a43-82d6-315b0757b4ef")
 		)
 		(pin "1"
-			(uuid "d6a1b72b-5f51-41ff-adef-1fcae251ea6f")
+			(uuid "e85fcb05-d3af-4de9-bf6d-242fd96b9651")
 		)
 		(instances
-			(project "operations"
-				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340/8a315d1d-f6f6-4d67-808d-8cdbaedd14a5"
-					(reference "LA2")
+			(project "relay"
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c/fb09005b-158a-4db1-b988-7ab7388868ff"
+					(reference "LA?")
 					(unit 1)
 				)
 			)
@@ -928,16 +990,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPST_x2")
-		(at 15.24 19.05 0)
-		(unit 2)
+		(at 16.51 15.24 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "96c3e8f3-eefb-4cc7-9fb9-c5ba5006aa7f")
-		(property "Reference" "SW2"
-			(at 15.24 12.7 0)
+		(uuid "8f5b6525-f6e8-499b-8e29-d758aca604d0")
+		(property "Reference" "SW?"
+			(at 16.51 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,16 +1007,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Операнд 2"
-			(at 15.24 15.24 0)
+		(property "Value" "SW_DPST_x2"
+			(at 16.51 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 19.05 0)
+			(at 16.51 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.24 19.05 0)
+			(at 16.51 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1035,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 15.24 19.05 0)
+			(at 16.51 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,23 +1043,23 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "03558b05-9768-4650-9f43-7891c6fe9160")
-		)
-		(pin "2"
-			(uuid "c0819ca4-6c75-4c88-86f4-7c420463b88c")
-		)
 		(pin "1"
-			(uuid "da0620bc-af73-4186-9bb5-d30f626cdfc1")
+			(uuid "ab4ce1e4-290f-4e97-bce3-9639a1d02472")
 		)
 		(pin "4"
-			(uuid "f016d502-99c2-4ff9-a102-e38603fbc9e6")
+			(uuid "8e99169e-802d-4896-914c-14c3d5ec1a07")
+		)
+		(pin "3"
+			(uuid "b45b19bd-0bfb-4150-ac09-1de34c71da7f")
+		)
+		(pin "2"
+			(uuid "22eb3e2c-646c-4205-a2bf-e4354bc0d833")
 		)
 		(instances
-			(project "operations"
-				(path "/ef21cd22-a9e7-4e45-b09f-de717f45c340/8a315d1d-f6f6-4d67-808d-8cdbaedd14a5"
-					(reference "SW2")
-					(unit 2)
+			(project "relay"
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c/fb09005b-158a-4db1-b988-7ab7388868ff"
+					(reference "SW?")
+					(unit 1)
 				)
 			)
 		)
