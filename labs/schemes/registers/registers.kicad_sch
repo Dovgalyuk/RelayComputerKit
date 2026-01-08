@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 133.35 20.32)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "863f7fac-bc14-4c4f-bc17-049d5c59b384")
+		(property "Sheetname" "trigger3"
+			(at 133.35 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trigger3.kicad_sch"
+			(at 133.35 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "registers"
+				(path "/ab0429f0-9972-454a-bd89-4e26a015f7d3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 58.42 20.32)
 		(size 27.94 22.86)
 		(exclude_from_sim no)

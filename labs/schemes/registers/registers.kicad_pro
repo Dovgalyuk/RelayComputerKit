@@ -624,6 +624,10 @@
     [
       "c64453cf-a6db-47cb-b396-e2a7f18a8997",
       "bus"
+    ],
+    [
+      "863f7fac-bc14-4c4f-bc17-049d5c59b384",
+      "trigger3"
     ]
   ],
   "text_variables": {}
