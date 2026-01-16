@@ -8,6 +8,7 @@
 
 \usepackage{graphicx}
 \usepackage{pdflscape}
+\usepackage{amsmath}
 
 \begin{document}
 
@@ -15,24 +16,32 @@
 
 \part{Что такое компьютер и зачем он нам нужен?}
 
-\include{1_intro}
+\include{part1/1_intro}
 
 
 \part{Собираем релейный калькулятор}
 
-\include{2_relay}
-\include{3_registers}
-\include{4_operations}
-\include{5_calculator}
+\include{part2/2_relay}
+\include{part2/3_registers}
+\include{part2/4_unary}
+\include{part2/5_binary}
+\include{part2/6_add}
+\include{part2/7_sub}
+\include{part2/8_calculator}
 
 
 \part{Строим релейный компьютер}
 
+
 \chapter{Элементы компьютера}
 
-\section{Дешифратор}
+\section{Чем компьютер отличается от калькулятора?}
 
-\subsection{Практикум}
+\chapter{Дешифратор}
+
+\section{Практикум}
+
+\subsection{Калькулятор с выбором операции}
 
 % \subsubsection{Устройство, угадывающее животных}
 % % WoS: 09-software.pdf page 20
@@ -59,15 +68,13 @@
 % E пингвин   ~a & ~b & ~c & ~d
 % F альбатрос ~a & ~b & ~c & d
 
+\include{part3/clock}
 
+\chapter{ПЗУ}
 
-\section{ПЗУ}
+\chapter{Набор инструкций}
 
-\section{Набор инструкций}
-
-\section{Декодер инструкций}
-
-\section{Тактовый генератор}
+\chapter{Декодер инструкций}
 
 
 \chapter{Компьютер}
