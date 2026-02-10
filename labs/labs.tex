@@ -12,15 +12,19 @@
 
 \begin{document}
 
+\frontmatter
+
 \tableofcontents
 
-\part{Что такое компьютер и зачем он нам нужен?}
+%\part{Что такое компьютер и зачем он нам нужен?}
 
 \include{part1/1_intro}
 
+\mainmatter
 
 \part{Собираем релейный калькулятор}
 
+\include{part2/1_binary_code}
 \include{part2/2_relay}
 \include{part2/3_registers}
 \include{part2/4_unary}
@@ -37,36 +41,15 @@
 
 \section{Чем компьютер отличается от калькулятора?}
 
-\chapter{Дешифратор}
+\include{part3/decoder}
+
+\chapter{Регистровый файл}
+
+\chapter{АЛУ}
 
 \section{Практикум}
 
-\subsection{Калькулятор с выбором операции}
-
-% \subsubsection{Устройство, угадывающее животных}
-% % WoS: 09-software.pdf page 20
-
-% %            Животные: леопард, тигр, жираф, зебра, пингвин, альбатрос
-% %Вопросы:
-% %- острые зубы            x       x
-% %- млекопитающее          x       x     x      x
-% %- полосатое                      x            x
-% %- летает                                                        x
-
-% Вопросы:
-% a острые зубы
-% b млекопитающее
-% c полосатое
-% d летает
-
-
-% Ответы:
-% A леопард   a & b & ~c & ~d
-% B тигр      a & b & c & ~d
-% C жираф     ~a & b & ~c & ~d
-% D зебра     ~a & b & c & ~d
-% E пингвин   ~a & ~b & ~c & ~d
-% F альбатрос ~a & ~b & ~c & d
+Калькулятор с выбором операндов из регистрового файла.
 
 \include{part3/clock}
 
