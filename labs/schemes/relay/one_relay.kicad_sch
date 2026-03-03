@@ -3,8 +3,429 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "39ee7865-cd88-4c0d-beb6-a6182f7b1a27")
-	(paper "User" 25.4 43.18)
+	(paper "User" 127 127)
 	(lib_symbols
+		(symbol "Relay:FRT5_separated"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FRT5_separated"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_DPDT_FRT5"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "relay monostable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*DPDT*FRT5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FRT5_separated_1_0"
+				(text "+"
+					(at 0.889 2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "FRT5_separated_1_1"
+				(rectangle
+					(start -3.175 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FRT5_separated_2_1"
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FRT5_separated_3_1"
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "relay:4PDT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -730,8 +1151,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:FRT5_separated")
+		(at 36.83 48.26 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05ee0f15-78f6-4970-b42e-94d495957bae")
+		(property "Reference" "K6"
+			(at 36.83 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FRT5_separated"
+			(at 35.5601 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_FRT5"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ba92a378-6c2a-4b44-aa4f-8e9d3aa58b85")
+		)
+		(pin "4"
+			(uuid "e5c0f7fd-1e5b-44fb-9cdb-141c07074e3d")
+		)
+		(pin "3"
+			(uuid "26d9e751-9be8-4853-a1a8-fdc8573ab69e")
+		)
+		(pin "2"
+			(uuid "b8068d40-64ee-46a5-944a-82ad9dca0c5a")
+		)
+		(pin "10"
+			(uuid "d7cb9b57-c49f-4c1f-9ee3-47274ab0b4f2")
+		)
+		(pin "1"
+			(uuid "d34f4ba4-2271-48c5-8f49-9859ccd51c36")
+		)
+		(pin "9"
+			(uuid "ba55bf48-ca99-402e-9c7e-c53905c4adcc")
+		)
+		(pin "8"
+			(uuid "8e6997b6-7bb2-40c6-a77c-635eba5d278a")
+		)
+		(instances
+			(project ""
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c/29323379-3f3e-40dc-be76-5e0048e112d6"
+					(reference "K6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "relay:4PDT")
-		(at 3.81 12.7 0)
+		(at 73.66 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -740,7 +1250,7 @@
 		(fields_autoplaced yes)
 		(uuid "1282d6d5-5735-46e2-b094-fbcff5b54650")
 		(property "Reference" "K1"
-			(at 13.335 2.54 0)
+			(at 83.185 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +1259,7 @@
 			)
 		)
 		(property "Value" "4PDT"
-			(at 13.335 5.08 0)
+			(at 83.185 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,7 +1268,7 @@
 			)
 		)
 		(property "Footprint" "relay:MY4N socket"
-			(at 3.81 12.7 0)
+			(at 73.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +1277,7 @@
 			)
 		)
 		(property "Datasheet" "https://edata.omron.com.au/eData/Relays/J111-E1-03.pdf"
-			(at -3.048 62.992 0)
+			(at 66.802 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +1286,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 3.81 12.7 0)
+			(at 73.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,6 +1340,184 @@
 			(project ""
 				(path "/5c1fc490-b475-4768-befc-b1eff004344c/29323379-3f3e-40dc-be76-5e0048e112d6"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:FRT5_separated")
+		(at 22.86 36.83 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a740c91-51fe-4d30-8f60-27db653312a9")
+		(property "Reference" "K6"
+			(at 22.86 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FRT5_separated"
+			(at 21.5901 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_FRT5"
+			(at 20.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663"
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols"
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ba92a378-6c2a-4b44-aa4f-8e9d3aa58b85")
+		)
+		(pin "4"
+			(uuid "e5c0f7fd-1e5b-44fb-9cdb-141c07074e3d")
+		)
+		(pin "3"
+			(uuid "26d9e751-9be8-4853-a1a8-fdc8573ab69e")
+		)
+		(pin "2"
+			(uuid "b8068d40-64ee-46a5-944a-82ad9dca0c5a")
+		)
+		(pin "10"
+			(uuid "d7cb9b57-c49f-4c1f-9ee3-47274ab0b4f2")
+		)
+		(pin "1"
+			(uuid "d34f4ba4-2271-48c5-8f49-9859ccd51c36")
+		)
+		(pin "9"
+			(uuid "ba55bf48-ca99-402e-9c7e-c53905c4adcc")
+		)
+		(pin "8"
+			(uuid "8e6997b6-7bb2-40c6-a77c-635eba5d278a")
+		)
+		(instances
+			(project ""
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c/29323379-3f3e-40dc-be76-5e0048e112d6"
+					(reference "K6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:FRT5_separated")
+		(at 24.13 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f92fd1-fbf5-40be-968f-97e54ef4b36e")
+		(property "Reference" "K6"
+			(at 24.13 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FRT5_separated"
+			(at 25.3999 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_FRT5"
+			(at 26.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ba92a378-6c2a-4b44-aa4f-8e9d3aa58b85")
+		)
+		(pin "4"
+			(uuid "e5c0f7fd-1e5b-44fb-9cdb-141c07074e3d")
+		)
+		(pin "3"
+			(uuid "26d9e751-9be8-4853-a1a8-fdc8573ab69e")
+		)
+		(pin "2"
+			(uuid "b8068d40-64ee-46a5-944a-82ad9dca0c5a")
+		)
+		(pin "10"
+			(uuid "d7cb9b57-c49f-4c1f-9ee3-47274ab0b4f2")
+		)
+		(pin "1"
+			(uuid "d34f4ba4-2271-48c5-8f49-9859ccd51c36")
+		)
+		(pin "9"
+			(uuid "ba55bf48-ca99-402e-9c7e-c53905c4adcc")
+		)
+		(pin "8"
+			(uuid "8e6997b6-7bb2-40c6-a77c-635eba5d278a")
+		)
+		(instances
+			(project ""
+				(path "/5c1fc490-b475-4768-befc-b1eff004344c/29323379-3f3e-40dc-be76-5e0048e112d6"
+					(reference "K6")
 					(unit 1)
 				)
 			)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "0290d2ae-3752-4475-8568-41ab23c4e00f")
-	(paper "User" 46.99 54.61)
+	(paper "A4" portrait)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -106,19 +106,25 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "relay:4PDT"
+		(symbol "relay:SPDT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 5.842 6.858 0)
+				(at 5.588 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "4PDT"
+			(property "Value" "SPDT"
 				(at 9.398 -24.892 0)
 				(effects
 					(font
@@ -153,9 +159,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "4PDT_0_1"
+			(symbol "SPDT_0_1"
 				(rectangle
-					(start 5.08 5.715)
+					(start 5.08 -10.16)
 					(end 13.97 -23.495)
 					(stroke
 						(width 0.254)
@@ -163,42 +169,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 6.985 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.81) (xy 6.985 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -8.89) (xy 6.985 -8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -227,42 +197,6 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 1.27) (xy 12.7 3.175)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -3.81) (xy 12.7 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -8.89) (xy 12.7 -6.985)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 6.985 -13.97) (xy 12.7 -12.065)
 					)
 					(stroke
@@ -276,150 +210,6 @@
 				(polyline
 					(pts
 						(xy 7.62 -21.59) (xy 11.43 -16.51)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 0.635) (xy 9.525 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -0.635) (xy 9.525 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -1.905) (xy 9.525 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -3.175) (xy 9.525 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -4.445) (xy 9.525 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -5.715) (xy 9.525 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -6.985) (xy 9.525 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -8.255) (xy 9.525 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -9.525) (xy 9.525 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -10.795) (xy 9.525 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -12.065) (xy 9.525 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -13.335) (xy 9.525 -12.7)
 					)
 					(stroke
 						(width 0.254)
@@ -467,78 +257,6 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 3.81) (xy 11.43 3.81) (xy 12.065 3.175) (xy 12.7 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 1.27) (xy 11.43 1.27) (xy 12.065 1.905) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -1.27) (xy 11.43 -1.27) (xy 12.065 -1.905) (xy 12.7 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -3.81) (xy 11.43 -3.81) (xy 12.065 -3.175) (xy 12.7 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -6.35) (xy 11.43 -6.35) (xy 12.065 -6.985) (xy 12.7 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -8.89) (xy 11.43 -8.89) (xy 12.065 -8.255) (xy 12.7 -8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 13.97 -11.43) (xy 11.43 -11.43) (xy 12.065 -12.065) (xy 12.7 -11.43)
 					)
 					(stroke
@@ -562,7 +280,7 @@
 					)
 				)
 			)
-			(symbol "4PDT_1_1"
+			(symbol "SPDT_1_1"
 				(rectangle
 					(start 11.43 -15.875)
 					(end 7.62 -22.225)
@@ -572,60 +290,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -8.89 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -657,114 +321,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 3.81 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -3.81 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -6.35 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -8.89 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -832,7 +388,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 20.32) (xy 40.64 20.32)
+			(xy 35.56 35.56) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +408,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 20.32) (xy 21.59 20.32)
+			(xy 16.51 35.56) (xy 21.59 35.56)
 		)
 		(stroke
 			(width 0)
@@ -881,7 +437,7 @@
 		(uuid "f9721442-118e-45e0-a613-b7c1f06cfd3c")
 	)
 	(label "C"
-		(at 39.37 20.32 0)
+		(at 39.37 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -891,7 +447,7 @@
 		(uuid "1a8f27c9-ea43-4e79-93ce-428a49df4417")
 	)
 	(label "A"
-		(at 16.51 20.32 0)
+		(at 16.51 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -977,7 +533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "relay:4PDT")
+		(lib_id "relay:SPDT")
 		(at 19.05 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1005,7 +561,7 @@
 			)
 		)
 		(property "Footprint" "relay:MY4N socket"
-			(at 19.05 21.59 0)
+			(at 10.922 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,35 +599,8 @@
 		(pin "8"
 			(uuid "911ee21c-46c2-4a29-b192-b8a08f443c74")
 		)
-		(pin "7"
-			(uuid "b8316b18-59ef-4a52-a94a-712730060bb9")
-		)
-		(pin "1"
-			(uuid "0169083d-8939-4d0b-b1c6-e1e79006de32")
-		)
-		(pin "9"
-			(uuid "c9eef610-e92b-4821-ab30-d2ca8255bed9")
-		)
 		(pin "4"
 			(uuid "89c1aaca-41c2-4688-8fd2-c933774a1280")
-		)
-		(pin "11"
-			(uuid "a2d10c39-0bc8-42be-8c41-69da5a189117")
-		)
-		(pin "10"
-			(uuid "3e565255-856b-4dc0-9f2d-49c8628d1e3f")
-		)
-		(pin "6"
-			(uuid "3e5efa2c-e2be-4c50-8393-622f75f89bed")
-		)
-		(pin "5"
-			(uuid "86c37740-7bca-4621-8797-c50ff3269dc8")
-		)
-		(pin "3"
-			(uuid "3b044f52-637e-46ff-993f-168a2d5c00c5")
-		)
-		(pin "2"
-			(uuid "493686c3-c17b-4691-9dea-0a91ac47aeff")
 		)
 		(instances
 			(project "operations"
