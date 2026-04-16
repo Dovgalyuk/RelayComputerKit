@@ -2778,6 +2778,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Power"
+		(at 148.5 96.5 0)
+		(layer "Dwgs.User")
+		(uuid "f0baf1f6-888c-4d22-bedb-c4ebacc57d2b")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.625)
+			)
+			(justify left bottom)
+		)
+	)
 	(zone
 		(net 21)
 		(net_name "/VIN")
