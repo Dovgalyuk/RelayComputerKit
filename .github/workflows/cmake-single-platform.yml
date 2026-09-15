@@ -20,7 +20,9 @@ jobs:
       run: sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-lang-cyrillic
 
     - name: Build pdf
-      run: ./labs/build.sh
+      run: |
+        cd labs
+        ./build.sh
 
     # - name: Build all
     #   uses: actions-for-kicad/kicad-actions@v2.5-k9.0.9
