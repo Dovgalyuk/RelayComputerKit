@@ -1,4 +1,5 @@
 ./export_pcb.sh "./modules" "bus" "./modules-png" "./modules-gerber"
+./export_pcb.sh "./modules" "clock" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "decoder" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "logic_binary" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "logic_unary" "./modules-png" "./modules-gerber"
@@ -8,6 +9,7 @@
 ./export_pcb.sh "./modules" "switchboard" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "switches" "./modules-png" "./modules-gerber"
 ./export_scheme.sh "./modules" "bus" "./modules-png"
+./export_scheme.sh "./modules" "clock" "./modules-png"
 ./export_scheme.sh "./modules" "decoder" "./modules-png"
 ./export_scheme.sh "./modules" "logic_binary" "./modules-png"
 ./export_scheme.sh "./modules" "logic_unary" "./modules-png"

@@ -1,1 +1,3 @@
-Register/ALU bus: distance 24.5 mm
+# Релейный конструктор
+
+Скомпилированный учебник: https://github.com/Dovgalyuk/RelayComputerKit/blob/main/labs/labs.pdf
