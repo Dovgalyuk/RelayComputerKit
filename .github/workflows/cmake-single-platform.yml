@@ -23,12 +23,10 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-lang-cyrillic texlive-pictures texlive-extra-utils inkscape
 
-    - name: Build pdf
-      run: |
-        cd labs
-        ./build.sh
+    # - name: Build pdf
+    #   run: |
+    #     cd labs
+    #     ./build.sh
 
-    # - name: Build all
-    #   uses: actions-for-kicad/kicad-actions@v2.5-k9.0.9
-    #   run: ./build_all.sh
-
+    - name: Build all
+      run: ./build_all.sh
