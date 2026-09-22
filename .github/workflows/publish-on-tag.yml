@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
 
     - uses: actions-for-kicad/setup-kicad@v1.3
       with:
@@ -25,6 +25,17 @@ jobs:
     - name: Build all
       run: ./build_all.sh
 
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+
     - name: Upload pdf to Release
       uses: svenstaro/upload-release-action@v2
       with:
@@ -34,9 +45,9 @@ jobs:
         tag: ${{ github.ref }}
 
     - name: Upload gerbers to Release
-      uses: svenstaro/upload-release-action@v2
+      uses: dwenegar/upload-release-assets@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./modules-gerber/*.zip
-        tag: ${{ github.ref }}
-
+        release_id: ${{ steps.create_release.outputs.id }}
+        assets_path: ./modules-gerber
