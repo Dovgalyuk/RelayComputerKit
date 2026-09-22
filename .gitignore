@@ -3,5 +3,7 @@
 *.bak
 *.zip
 *-backups
+*.lck
 fp-info-cache
 modules-gerber
+modules-png

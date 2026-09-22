@@ -1,3 +1,4 @@
+./export_pcb.sh "./modules" "adder" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "bus" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "clock" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "decoder" "./modules-png" "./modules-gerber"
@@ -8,6 +9,7 @@
 ./export_pcb.sh "./modules" "rom" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "switchboard" "./modules-png" "./modules-gerber"
 ./export_pcb.sh "./modules" "switches" "./modules-png" "./modules-gerber"
+./export_scheme.sh "./modules" "adder" "./modules-png"
 ./export_scheme.sh "./modules" "bus" "./modules-png"
 ./export_scheme.sh "./modules" "clock" "./modules-png"
 ./export_scheme.sh "./modules" "decoder" "./modules-png"
@@ -22,5 +24,3 @@
 cd labs
 ./build.sh
 cd ..
-
-rm ./modules-png/*.svg
