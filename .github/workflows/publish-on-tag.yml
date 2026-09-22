@@ -1,4 +1,4 @@
-name: Publish pdf on pushing the tag
+name: Publish release on pushing the tag
 
 on:
   push:
@@ -25,29 +25,7 @@ jobs:
     - name: Build all
       run: ./build_all.sh
 
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create release
+    - uses: ncipollo/release-action@v1
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
-        draft: false
-        prerelease: false
-
-    - name: Upload pdf to Release
-      uses: svenstaro/upload-release-action@v2
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./labs/labs.pdf
-        asset_name: labs_$tag.pdf
-        tag: ${{ github.ref }}
-
-    - name: Upload gerbers to Release
-      uses: dwenegar/upload-release-assets@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        release_id: ${{ steps.create_release.outputs.id }}
-        assets_path: ./modules-gerber
+        artifacts: "./labs/labs.pdf,./modules-gerber/*.zip"
