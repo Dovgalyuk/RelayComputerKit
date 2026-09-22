@@ -1,5 +1,7 @@
 *.bbl
 *.blg
 *.bak
+*.zip
 *-backups
 fp-info-cache
+modules-gerber

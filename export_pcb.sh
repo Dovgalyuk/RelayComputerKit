@@ -1,4 +1,4 @@
-#./export_pcb.sh "./modules/register/register.kicad_pcb" "./modules-png" "./modules-gerber"
+# ./export_pcb.sh "./modules" "switchboard" "./modules-png" "./modules-gerber"
 
 
 # generate picture
@@ -9,6 +9,7 @@ rm $3/temp.svg
 #generate gerbers
 kicad-cli pcb export gerbers --layers F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts --no-protel-ext --output $4/$2 $1/$2/$2.kicad_pcb
 kicad-cli pcb export drill --format excellon --excellon-separate-th --output $4/$2 $1/$2/$2.kicad_pcb
+zip $4/$2/$2.zip $4/$2/*
 
 #register-B_Cu.gbr
 #register-B_Mask.gbr
