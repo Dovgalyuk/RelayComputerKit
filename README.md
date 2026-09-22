@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/Dovgalyuk/RelayComputerKit/total)
+[![GitHub tag](https://img.shields.io/github/tag/Dovgalyuk/RelayComputerKit)](https://github.com/Dovgalyuk/RelayComputerKit/releases/ "View releases")
 
 # Релейный конструктор
 
