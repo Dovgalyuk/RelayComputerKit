@@ -1,8 +1,5 @@
 *.bbl
 *.blg
-*.log
-*.aux
-*.toc
 *.bak
 *-backups
 fp-info-cache
