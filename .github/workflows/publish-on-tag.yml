@@ -25,7 +25,6 @@ jobs:
     - name: Build all
       run: ./build_all.sh
 
-    - name: Create release
     - uses: ncipollo/release-action@v1
       with:
         artifacts: "./labs/labs.pdf,./modules-gerber/*.zip"
