@@ -1,4 +1,4 @@
-name: CMake on a single platform
+name: Build everything on commit
 
 on:
   push:
@@ -22,11 +22,6 @@ jobs:
 
     - name: Install dependencies
       run: sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-lang-cyrillic texlive-pictures texlive-extra-utils inkscape
-
-    # - name: Build pdf
-    #   run: |
-    #     cd labs
-    #     ./build.sh
 
     - name: Build all
       run: ./build_all.sh

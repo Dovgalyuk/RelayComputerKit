@@ -1,0 +1,36 @@
+name: Publish pdf on pushing the tag
+
+on:
+  push:
+    branches: [ "main" ]
+    tags:
+      - '*'
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions-for-kicad/setup-kicad@v1.3
+      with:
+        version: "9.0"
+
+    - name: Install dependencies
+      run: sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-lang-cyrillic texlive-pictures texlive-extra-utils inkscape
+
+    - name: Build all
+      run: ./build_all.sh
+
+    - name: Upload Binaries to Release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./labs/labs.pdf
+        asset_name: labs_$tag.pdf
+        tag: ${{ github.ref }}
+
