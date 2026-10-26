@@ -3425,13 +3425,13 @@
 		(layer "Edge.Cuts")
 		(uuid "44fcf233-2423-4d7e-b6cc-33d50feff0d0")
 	)
-	(gr_text "D3"
-		(at 119.5 79.5 0)
+	(gr_text "BUS3"
+		(at 118.5 97.5 0)
 		(layer "F.SilkS")
-		(uuid "06d7c650-6d58-424a-beb6-35279d902b0b")
+		(uuid "c8c48578-6db6-481e-ab6b-ab7cc286047b")
 		(effects
 			(font
-				(size 3 3)
+				(size 2 2)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -3441,6 +3441,18 @@
 		(at 129 97.5 0)
 		(layer "F.SilkS")
 		(uuid "0f7c0d79-26bb-4636-9399-6def04edc0d2")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BUS1"
+		(at 139.5 97.5 0)
+		(layer "F.SilkS")
+		(uuid "c96389ef-ce5d-4dbb-9214-dccf0777b910")
 		(effects
 			(font
 				(size 2 2)
@@ -3461,10 +3473,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "D3"
+		(at 119.5 79.5 0)
+		(layer "F.SilkS")
+		(uuid "06d7c650-6d58-424a-beb6-35279d902b0b")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "D2"
 		(at 130 79.5 0)
 		(layer "F.SilkS")
 		(uuid "67571839-6041-4e97-b0e5-eacd1ebc4bc5")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D1"
+		(at 140.5 79.5 0)
+		(layer "F.SilkS")
+		(uuid "c9fb0430-3636-4884-a603-bd2dded8454d")
 		(effects
 			(font
 				(size 3 3)
@@ -3497,58 +3533,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BUS3"
-		(at 118.5 97.5 0)
-		(layer "F.SilkS")
-		(uuid "c8c48578-6db6-481e-ab6b-ab7cc286047b")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "BUS1"
-		(at 139.5 97.5 0)
-		(layer "F.SilkS")
-		(uuid "c96389ef-ce5d-4dbb-9214-dccf0777b910")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "D1"
-		(at 140.5 79.5 0)
-		(layer "F.SilkS")
-		(uuid "c9fb0430-3636-4884-a603-bd2dded8454d")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "0"
 		(at 120 104.5 0)
 		(layer "F.SilkS")
 		(uuid "cc836cac-8280-49a0-b6ba-24cda96c846d")
-		(effects
-			(font
-				(size 5 5)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "0"
-		(at 151.5 104.5 0)
-		(layer "F.SilkS")
-		(uuid "d852a629-da07-439e-8969-56acc7071a65")
 		(effects
 			(font
 				(size 5 5)
@@ -3569,7 +3557,19 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Switches board rev6\nP. Dovgalyuk, 2026"
+	(gr_text "0"
+		(at 151.5 104.5 0)
+		(layer "F.SilkS")
+		(uuid "d852a629-da07-439e-8969-56acc7071a65")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Switches board v1.0\nP. Dovgalyuk, 2026"
 		(at 158.5 120 0)
 		(layer "B.SilkS")
 		(uuid "9d3b3356-1d96-458c-bce6-7a81037f27d5")

@@ -2,20 +2,6 @@
 import os
 import csv
 
-count = {
-    'adder': 3,
-    'bus': 10,
-    'clock': 4,
-    'decoder': 8,
-    'logic_binary': 3,
-    'logic_unary': 3,
-    'power': 1,
-    'register': 6,
-    'rom': 4,
-    'switchboard': 10,
-    'switches': 10,
-}
-
 names = {
     'Capacitor_THT:CP_Radial_D8.0mm_P3.50mm': 'конденсатор',
     'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal': 'диод',
@@ -40,8 +26,8 @@ pins = {
     'Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical': 8,
 }
 
-path = '../modules-bom/'
-bom = {'pin': 0}
+path = 'modules-bom/'
+bom = {}
 for name in os.listdir(path):
     fullname = os.path.join(path, name)
     if not os.path.isfile(fullname):
@@ -54,19 +40,19 @@ for name in os.listdir(path):
         for row in reader:
             fp = row[fp_idx]
             qty = int(row[qty_idx])
+            if fp in pins:
+                qty = pins[fp] * qty
+                fp = 'pin'
             if fp not in bom:
-                bom[fp] = 0
-            bom[fp] += qty * count[name]
+                bom[fp] = {}
+            if name not in bom[fp]:
+                bom[fp][name] = 0
+            bom[fp][name] += qty
 
-for name, qty in bom.items():
-    if name in pins:
-        bom['pin'] += pins[name] * qty
-    elif name in names:
-        pass
-    else:
-        print('Error:', name, qty)
-
-for name, qty in bom.items():
+for name, modules in bom.items():
     if name in names:
         name = names[name]
-        print(name, qty)
+    print(f'{name} & \\the\\numexpr 0', end='')
+    for m, qty in modules.items():
+        print(f' + \\the{m} * {qty}', end='')
+    print(' \\relax \\\\ \\hline')

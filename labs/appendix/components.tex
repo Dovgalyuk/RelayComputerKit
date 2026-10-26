@@ -1,0 +1,35 @@
+\chapter{Состав набора для сборки компьютера}
+
+В таблице указано максимальное число модулей, которого будет достаточно
+для выполнения любого из заданий.
+
+\begin{tabular}{|l|c|}
+\hline
+\bf Модуль & \bf Количество \\ \hline
+Переключатели & \theswitches \\ \hline
+Регистр & \theregister \\ \hline
+Унарные операции & \theunary \\ \hline
+Бинарные операции & \thebinary \\ \hline
+Сумматор & \theadder \\ \hline
+Дешифратор & \thedecoder \\ \hline
+Шина & \thebus \\ \hline
+Кросс & \thematrix \\ \hline
+Тактовый генератор & \theclock \\ \hline
+ПЗУ & \therom \\ \hline
+Адаптер блока питания & \thepower \\ \hline
+\end{tabular}
+
+Для сборки всех этих модулей потребуется соответствующее число плат и следующие компоненты.
+
+\the\numexpr \theadder * 8 + \theregister * 8 \relax
+
+\begin{tabular}{|l|c|}
+\hline
+\bf Компонент & \bf Количество \\ \hline
+\input{appendix/bom.tex}
+\unskip блок питания & 1 \\ \hline
+соединительный шлейф & \thecable \\ \hline
+\end{tabular}
+
+Угловые и вертикальные пины могут быть собраны в линейки разной длины.
+Для сборки их необходимо разрезать самостоятельно.

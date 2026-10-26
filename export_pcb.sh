@@ -1,4 +1,4 @@
-# ./export_pcb.sh "./modules" "switchboard" "./modules-png" "./modules-gerber"
+# ./export_pcb.sh "./modules" "matrix" "./modules-png" "./modules-gerber"
 
 # generate picture
 kicad-cli pcb export svg -l F.Silkscreen,User.Drawings,Edge.Cuts,F.Fab --exclude-drawing-sheet --page-size-mode 2 --black-and-white --output $3/temp.svg $1/$2/$2.kicad_pcb

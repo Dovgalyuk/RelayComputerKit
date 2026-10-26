@@ -376,6 +376,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1980,6 +2105,12 @@
 		(uuid "9e02a8a6-f26d-472c-947e-266f948bb694")
 	)
 	(junction
+		(at 36.83 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4403b51-aee0-4413-abd1-57f79497c907")
+	)
+	(junction
 		(at 260.35 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2440,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "1ae1e64d-ef46-4d82-be9f-378c267263a9")
+	)
+	(wire
+		(pts
+			(xy 36.83 50.8) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7fff63-c3da-4b49-9eca-8d70daa1c506")
 	)
 	(wire
 		(pts
@@ -5707,7 +5848,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84cf9")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K3")
 					(unit 1)
@@ -5811,7 +5952,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84cfa")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K7")
 					(unit 1)
@@ -5899,7 +6040,7 @@
 			(uuid "7210aafd-8e39-4ea7-aee1-15f9aa98f28a")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "J9")
 					(unit 1)
@@ -5985,7 +6126,7 @@
 			(uuid "c6da8f6a-4e1a-4948-bd01-1da4fa7484ac")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D6")
 					(unit 1)
@@ -6071,9 +6212,75 @@
 			(uuid "c6da8f6a-4e1a-4948-bd01-1da4fa7484ad")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 36.83 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eee1dc0-b2f7-4bc7-91af-2175faa536b1")
+		(property "Reference" "#PWR02"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "663e92ce-a0a3-4638-b4e9-1e2e1affb96c")
+		)
+		(instances
+			(project "adder"
+				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6175,7 +6382,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84cfb")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K6")
 					(unit 1)
@@ -6279,7 +6486,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84cfc")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K1")
 					(unit 1)
@@ -6365,7 +6572,7 @@
 			(uuid "c6da8f6a-4e1a-4948-bd01-1da4fa7484ae")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D3")
 					(unit 1)
@@ -6451,7 +6658,7 @@
 			(uuid "c6da8f6a-4e1a-4948-bd01-1da4fa7484af")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D4")
 					(unit 1)
@@ -6555,7 +6762,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84cfd")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K2")
 					(unit 1)
@@ -6641,7 +6848,7 @@
 			(uuid "c6da8f6a-4e1a-4948-bd01-1da4fa7484b0")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D7")
 					(unit 1)
@@ -6903,7 +7110,7 @@
 			(uuid "6148f800-5039-4040-85ee-9139ec145177")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D2")
 					(unit 1)
@@ -7095,7 +7302,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84cfe")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K5")
 					(unit 1)
@@ -7181,7 +7388,7 @@
 			(uuid "c6da8f6a-4e1a-4948-bd01-1da4fa7484b1")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D5")
 					(unit 1)
@@ -7267,7 +7474,7 @@
 			(uuid "b3ddc248-9465-46a7-84dc-b4578b286799")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "D1")
 					(unit 1)
@@ -7355,7 +7562,7 @@
 			(uuid "75672bc6-a36a-43fe-b665-fa779f08e589")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "J2")
 					(unit 1)
@@ -7421,7 +7628,7 @@
 			(uuid "bc21d074-39d5-4957-b39b-e32827a073aa")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "#PWR01")
 					(unit 1)
@@ -7509,7 +7716,7 @@
 			(uuid "75672bc6-a36a-43fe-b665-fa779f08e58a")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "J3")
 					(unit 1)
@@ -7597,7 +7804,7 @@
 			(uuid "7210aafd-8e39-4ea7-aee1-15f9aa98f28b")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "J8")
 					(unit 1)
@@ -7668,7 +7875,7 @@
 			(uuid "aecfc02d-ffbb-4400-b5f1-cb0ce32df7d6")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "J10")
 					(unit 1)
@@ -7772,7 +7979,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84cff")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K8")
 					(unit 1)
@@ -7876,7 +8083,7 @@
 			(uuid "18425877-5092-4152-b5e1-9cafc0d84d00")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "K4")
 					(unit 1)
@@ -7964,7 +8171,7 @@
 			(uuid "75672bc6-a36a-43fe-b665-fa779f08e58b")
 		)
 		(instances
-			(project ""
+			(project "adder"
 				(path "/00847eda-8256-4c41-8936-f4fb88f58f68"
 					(reference "J1")
 					(unit 1)

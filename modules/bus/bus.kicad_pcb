@@ -4201,7 +4201,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Bus board rev6\nP. Dovgalyuk, 2026"
+	(gr_text "Bus board v1.0\nP. Dovgalyuk, 2026"
 		(at 161.5 99 0)
 		(layer "B.SilkS")
 		(uuid "dd69cd95-5d80-49e4-99e2-99c8ad2a2df5")

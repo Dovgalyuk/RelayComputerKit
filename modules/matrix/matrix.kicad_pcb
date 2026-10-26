@@ -208,7 +208,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/bd8c4b14-1f6f-4681-aef6-c80270c5f985")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -474,7 +474,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4e928787-aff9-463d-9468-4cacdc209a47")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -739,7 +739,7 @@
 		)
 		(path "/59d36b77-49c9-469f-9f4b-749ce5a10189")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -10.09 -1.33)
@@ -1729,7 +1729,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b98e1dcc-aad1-4943-a4c4-1cff018b9178")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -1995,7 +1995,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/36b90f5a-91b9-4c25-bf32-ee187493b93d")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -2260,7 +2260,7 @@
 		)
 		(path "/fb43e616-6824-47b0-87b2-a003840c9882")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.68 -0.5)
@@ -2720,7 +2720,7 @@
 		)
 		(path "/ff7baeff-da65-4dfd-80f6-cc9c797b3be0")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.15 -1.38)
@@ -3960,7 +3960,7 @@
 		)
 		(path "/32d3ed42-a1cf-4c22-9d43-c0d144fa672a")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 12.83)
@@ -4419,7 +4419,7 @@
 		)
 		(path "/52ebcda4-a9eb-4d1a-b5c3-7f34d7988854")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.11 -1.33)
@@ -5409,7 +5409,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/15e62b04-e214-4378-a8c6-24c8febc0f21")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -5686,7 +5686,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/73a0aefb-7ff3-478b-b76a-d8ae7ef0d593")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -5951,7 +5951,7 @@
 		)
 		(path "/a5211abc-9129-42b3-a3a0-c40fe8e2ca53")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 -5.21)
@@ -6412,7 +6412,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a97ebd96-ccad-4b2d-a338-8b172da126d3")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.38 1.27)
@@ -6677,7 +6677,7 @@
 		)
 		(path "/39ed231f-7012-43fb-ac11-6643a345442b")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.27 -1.27)
@@ -7918,7 +7918,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b95697c7-9caf-48ca-97eb-a4b8711225ff")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -8184,7 +8184,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/82f74b0e-179a-482a-8db9-dcc94e35db6a")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -8449,7 +8449,7 @@
 		)
 		(path "/c9ced7c2-fc4f-43dc-96f0-31a28e2f7fbd")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.29 12.83)
@@ -8910,7 +8910,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1e2b1096-b7d0-496d-95a6-1fb22b0d92e1")
 		(sheetname "/")
-		(sheetfile "switchboard.kicad_sch")
+		(sheetfile "matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -9130,250 +9130,10 @@
 		(layer "Edge.Cuts")
 		(uuid "b3729220-ab6d-46ce-8c1c-714bd46c374d")
 	)
-	(gr_text "3"
-		(at 156.5 91.58 90)
-		(layer "F.SilkS")
-		(uuid "017485b9-1d40-4c85-91cb-65676b619b72")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "0"
-		(at 148 91.58 90)
-		(layer "F.SilkS")
-		(uuid "252afe07-d7e8-4c4b-a7bc-a7c1af42c712")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "2"
-		(at 139 104.436667 0)
-		(layer "F.SilkS")
-		(uuid "30464b3c-b500-4bdc-8551-8ba9bfa3dc15")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "0"
-		(at 147.75 113.75 90)
-		(layer "F.SilkS")
-		(uuid "31af90ec-4971-4acb-85ac-4028e06ee79c")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "B"
-		(at 162 80.75 0)
-		(layer "F.SilkS")
-		(uuid "3643d544-169e-41ff-936d-a53b0d598252")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "D"
-		(at 149 111.25 0)
-		(layer "F.SilkS")
-		(uuid "3c38b116-3e2e-497e-bda8-bb7020ce7baf")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "1"
-		(at 150.583333 113.75 90)
-		(layer "F.SilkS")
-		(uuid "46925eca-7f38-4478-9057-55501c873d9f")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "0"
 		(at 139 98.77 0)
 		(layer "F.SilkS")
 		(uuid "4b3f2f43-1470-4143-bb83-1429d519d0ea")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "1"
-		(at 160.46 101.083333 0)
-		(layer "F.SilkS")
-		(uuid "4cbbbb8b-4be1-40ab-8811-52391800ce5b")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "3"
-		(at 160.46 106.75 0)
-		(layer "F.SilkS")
-		(uuid "5d0c3198-e4f7-4659-b152-5da77e59ae4c")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "A"
-		(at 125 89.75 0)
-		(layer "F.SilkS")
-		(uuid "66139d36-a3d6-4901-8147-2f28323ff412")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+V"
-		(at 142.25 96 0)
-		(layer "F.SilkS")
-		(uuid "6b294d8b-782c-4443-ba27-ade8704bda64")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Matrix"
-		(at 119 132.75 0)
-		(layer "F.SilkS")
-		(uuid "713b63ef-8cf0-4dbe-ba6d-6356225907b2")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "1"
-		(at 150.833333 91.58 90)
-		(layer "F.SilkS")
-		(uuid "8995e825-0118-4652-9d42-98b474123e91")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "C"
-		(at 156 103.75 0)
-		(layer "F.SilkS")
-		(uuid "923aeb77-9ca7-42f2-be26-3bd78bc3b304")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "3"
-		(at 139 107.27 0)
-		(layer "F.SilkS")
-		(uuid "96b9b00a-bdff-44a8-b46e-617ff96bc98f")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "3"
-		(at 156.25 113.75 90)
-		(layer "F.SilkS")
-		(uuid "99bca868-e60e-433c-b7bd-1865bba7f418")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "C"
-		(at 172 117.5 0)
-		(layer "F.SilkS")
-		(uuid "b702565a-719d-4047-bff4-9b1401548ef7")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "A"
-		(at 141.5 104 0)
-		(layer "F.SilkS")
-		(uuid "c2848197-60f2-4ded-94cb-a00cb66bc750")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+V"
-		(at 154.5 110 0)
-		(layer "F.SilkS")
-		(uuid "c62f07eb-4013-4f82-b772-fcdfea4d2cf7")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "2"
-		(at 153.666667 91.58 90)
-		(layer "F.SilkS")
-		(uuid "c7bf61c4-0ebd-41a1-b247-058391eae9cd")
 		(effects
 			(font
 				(size 2 2)
@@ -9394,14 +9154,50 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B"
-		(at 148.75 96.5 0)
+	(gr_text "2"
+		(at 139 104.436667 0)
 		(layer "F.SilkS")
-		(uuid "dbb1efb7-251f-4a17-a452-8d96e1c73138")
+		(uuid "30464b3c-b500-4bdc-8551-8ba9bfa3dc15")
 		(effects
 			(font
-				(size 4 4)
-				(thickness 0.5)
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3"
+		(at 139 107.27 0)
+		(layer "F.SilkS")
+		(uuid "96b9b00a-bdff-44a8-b46e-617ff96bc98f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+V"
+		(at 142.25 96 0)
+		(layer "F.SilkS")
+		(uuid "6b294d8b-782c-4443-ba27-ade8704bda64")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+V"
+		(at 154.5 110 0)
+		(layer "F.SilkS")
+		(uuid "c62f07eb-4013-4f82-b772-fcdfea4d2cf7")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
 			)
 			(justify left bottom)
 		)
@@ -9418,22 +9214,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "D"
-		(at 135.5 128 0)
+	(gr_text "1"
+		(at 160.46 101.083333 0)
 		(layer "F.SilkS")
-		(uuid "e61e41b1-b8a7-4e82-87da-e8170ab6fa25")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "2"
-		(at 153.416667 113.75 90)
-		(layer "F.SilkS")
-		(uuid "f2285a85-fa7d-4e4f-8eef-038563fac3ea")
+		(uuid "4cbbbb8b-4be1-40ab-8811-52391800ce5b")
 		(effects
 			(font
 				(size 2 2)
@@ -9454,7 +9238,223 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Matrix board rev6\nP. Dovgalyuk, 2026"
+	(gr_text "3"
+		(at 160.46 106.75 0)
+		(layer "F.SilkS")
+		(uuid "5d0c3198-e4f7-4659-b152-5da77e59ae4c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0"
+		(at 147.75 113.75 90)
+		(layer "F.SilkS")
+		(uuid "31af90ec-4971-4acb-85ac-4028e06ee79c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0"
+		(at 148 91.58 90)
+		(layer "F.SilkS")
+		(uuid "252afe07-d7e8-4c4b-a7bc-a7c1af42c712")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 150.583333 113.75 90)
+		(layer "F.SilkS")
+		(uuid "46925eca-7f38-4478-9057-55501c873d9f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 150.833333 91.58 90)
+		(layer "F.SilkS")
+		(uuid "8995e825-0118-4652-9d42-98b474123e91")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 153.416667 113.75 90)
+		(layer "F.SilkS")
+		(uuid "f2285a85-fa7d-4e4f-8eef-038563fac3ea")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 153.666667 91.58 90)
+		(layer "F.SilkS")
+		(uuid "c7bf61c4-0ebd-41a1-b247-058391eae9cd")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3"
+		(at 156.25 113.75 90)
+		(layer "F.SilkS")
+		(uuid "99bca868-e60e-433c-b7bd-1865bba7f418")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3"
+		(at 156.5 91.58 90)
+		(layer "F.SilkS")
+		(uuid "017485b9-1d40-4c85-91cb-65676b619b72")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Matrix"
+		(at 119 132.75 0)
+		(layer "F.SilkS")
+		(uuid "713b63ef-8cf0-4dbe-ba6d-6356225907b2")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 125 89.75 0)
+		(layer "F.SilkS")
+		(uuid "66139d36-a3d6-4901-8147-2f28323ff412")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D"
+		(at 135.5 128 0)
+		(layer "F.SilkS")
+		(uuid "e61e41b1-b8a7-4e82-87da-e8170ab6fa25")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 141.5 104 0)
+		(layer "F.SilkS")
+		(uuid "c2848197-60f2-4ded-94cb-a00cb66bc750")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 148.75 96.5 0)
+		(layer "F.SilkS")
+		(uuid "dbb1efb7-251f-4a17-a452-8d96e1c73138")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D"
+		(at 149 111.25 0)
+		(layer "F.SilkS")
+		(uuid "3c38b116-3e2e-497e-bda8-bb7020ce7baf")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "C"
+		(at 156 103.75 0)
+		(layer "F.SilkS")
+		(uuid "923aeb77-9ca7-42f2-be26-3bd78bc3b304")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 162 80.75 0)
+		(layer "F.SilkS")
+		(uuid "3643d544-169e-41ff-936d-a53b0d598252")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "C"
+		(at 172 117.5 0)
+		(layer "F.SilkS")
+		(uuid "b702565a-719d-4047-bff4-9b1401548ef7")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Matrix board v1.0\nP. Dovgalyuk, 2026"
 		(at 176.25 132.75 0)
 		(layer "B.SilkS")
 		(uuid "3001841a-4d70-40c0-8c41-dd4d6f7a7df3")

@@ -15890,18 +15890,6 @@
 		(layer "Edge.Cuts")
 		(uuid "a306f9a9-12c3-4f85-895e-439687c65464")
 	)
-	(gr_text "0"
-		(at 172 138.5 0)
-		(layer "F.SilkS")
-		(uuid "281c2cfa-b2b3-457b-a8b8-b569d55299a8")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Control"
 		(at 89.5 60.5 0)
 		(layer "F.SilkS")
@@ -15914,10 +15902,46 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "3"
+		(at 98.5 138.5 0)
+		(layer "F.SilkS")
+		(uuid "fad85847-49b9-4877-98b9-e4448ba0b424")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "2"
 		(at 123 138.5 0)
 		(layer "F.SilkS")
 		(uuid "5a4e2502-0f7b-4e05-a211-729f07db5cbb")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 147.5 138.5 0)
+		(layer "F.SilkS")
+		(uuid "b77ac0de-8c41-45f9-bab4-0b779c78d6e9")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0"
+		(at 172 138.5 0)
+		(layer "F.SilkS")
+		(uuid "281c2cfa-b2b3-457b-a8b8-b569d55299a8")
 		(effects
 			(font
 				(size 4 4)
@@ -15938,31 +15962,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "1"
-		(at 147.5 138.5 0)
-		(layer "F.SilkS")
-		(uuid "b77ac0de-8c41-45f9-bab4-0b779c78d6e9")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "3"
-		(at 98.5 138.5 0)
-		(layer "F.SilkS")
-		(uuid "fad85847-49b9-4877-98b9-e4448ba0b424")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Register board rev6\nP. Dovgalyuk, 2026"
+	(gr_text "Register board v1.0\nP. Dovgalyuk, 2026"
 		(at 199 149 0)
 		(layer "B.SilkS")
 		(uuid "e071a17e-0291-4334-8dba-f4112352712c")
@@ -15974,10 +15974,82 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Управляющие сигналы"
-		(at 82.75 97.75 90)
+	(gr_text "Сброс"
+		(at 102.5 87.25 0)
 		(layer "Dwgs.User")
-		(uuid "04a7fa41-221a-49ae-a4f1-f3bf6775b3ea")
+		(uuid "f8a18ded-5994-4852-a621-ce77156d9bc0")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Реле-триггеры (хранение данных)"
+		(at 105.5 118.5 0)
+		(layer "Dwgs.User")
+		(uuid "dd55e34b-096a-4610-acc2-7ab7612cdd7f")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Шина 1"
+		(at 125 38 0)
+		(layer "Dwgs.User")
+		(uuid "9cd8893a-cf0a-4f37-b7db-68e7c6f6a19f")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Шина 1"
+		(at 125.5 156 0)
+		(layer "Dwgs.User")
+		(uuid "f66e5622-7b0f-4c01-bc67-0d17d21fe0af")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Шинные формирователи"
+		(at 129.75 87.25 0)
+		(layer "Dwgs.User")
+		(uuid "c93b456c-26a4-40e9-a70f-8f2a3ddf73b7")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Шина 2"
+		(at 149.5 38 0)
+		(layer "Dwgs.User")
+		(uuid "727948c0-217c-4e24-9c0e-47a0addec131")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Шина 2"
+		(at 149.5 156 0)
+		(layer "Dwgs.User")
+		(uuid "9a624aff-904b-4ff1-bc69-831552441f97")
 		(effects
 			(font
 				(size 3 3)
@@ -16011,93 +16083,9 @@
 		)
 	)
 	(gr_text "Управляющие сигналы"
-		(at 211.5 117 90)
+		(at 82.75 97.75 90)
 		(layer "Dwgs.User")
-		(uuid "687674c6-3e64-4a23-803b-d0fe7ea7af3c")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.375)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Шина 2"
-		(at 149.5 38 0)
-		(layer "Dwgs.User")
-		(uuid "727948c0-217c-4e24-9c0e-47a0addec131")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.375)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Биты 2-3"
-		(at 83 153 90)
-		(layer "Dwgs.User")
-		(uuid "7ce25600-eca7-42f6-af7a-822d79bc54b2")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.375)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Управляющие реле"
-		(at 108.75 81.25 0)
-		(layer "Dwgs.User")
-		(uuid "83d863d9-c8d9-43df-b172-88b3531ef16f")
-		(effects
-			(font
-				(size 5 5)
-				(thickness 0.625)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Шина 2"
-		(at 149.5 156 0)
-		(layer "Dwgs.User")
-		(uuid "9a624aff-904b-4ff1-bc69-831552441f97")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.375)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Шина 1"
-		(at 125 38 0)
-		(layer "Dwgs.User")
-		(uuid "9cd8893a-cf0a-4f37-b7db-68e7c6f6a19f")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.375)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Шинные формирователи"
-		(at 129.75 87.25 0)
-		(layer "Dwgs.User")
-		(uuid "c93b456c-26a4-40e9-a70f-8f2a3ddf73b7")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.375)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Реле-триггеры (хранение данных)"
-		(at 105.5 118.5 0)
-		(layer "Dwgs.User")
-		(uuid "dd55e34b-096a-4610-acc2-7ab7612cdd7f")
+		(uuid "04a7fa41-221a-49ae-a4f1-f3bf6775b3ea")
 		(effects
 			(font
 				(size 3 3)
@@ -16118,10 +16106,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Шина 1"
-		(at 125.5 156 0)
+	(gr_text "Биты 2-3"
+		(at 83 153 90)
 		(layer "Dwgs.User")
-		(uuid "f66e5622-7b0f-4c01-bc67-0d17d21fe0af")
+		(uuid "7ce25600-eca7-42f6-af7a-822d79bc54b2")
 		(effects
 			(font
 				(size 3 3)
@@ -16130,14 +16118,26 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Сброс"
-		(at 102.5 87.25 0)
+	(gr_text "Управляющие сигналы"
+		(at 211.5 117 90)
 		(layer "Dwgs.User")
-		(uuid "f8a18ded-5994-4852-a621-ce77156d9bc0")
+		(uuid "687674c6-3e64-4a23-803b-d0fe7ea7af3c")
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.375)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Управляющие реле"
+		(at 108.75 81.25 0)
+		(layer "Dwgs.User")
+		(uuid "83d863d9-c8d9-43df-b172-88b3531ef16f")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.625)
 			)
 			(justify left bottom)
 		)

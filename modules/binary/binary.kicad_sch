@@ -5656,7 +5656,7 @@
 			(uuid "6604cbba-bd75-40c6-9a44-f2fb3a0f61f3")
 		)
 		(instances
-			(project "logic_binary"
+			(project "binary"
 				(path "/3dc31096-bf51-4fa5-88fe-04e22503612d"
 					(reference "J8")
 					(unit 1)
@@ -6492,7 +6492,7 @@
 			(uuid "ae015dcf-7338-476b-b527-3fd8190df451")
 		)
 		(instances
-			(project "logic_binary"
+			(project "binary"
 				(path "/3dc31096-bf51-4fa5-88fe-04e22503612d"
 					(reference "J10")
 					(unit 1)
@@ -7468,7 +7468,7 @@
 			(uuid "d26c84a0-0773-4fdc-9bb3-43ae8a84e996")
 		)
 		(instances
-			(project "logic_binary"
+			(project "binary"
 				(path "/3dc31096-bf51-4fa5-88fe-04e22503612d"
 					(reference "J11")
 					(unit 1)
@@ -7623,7 +7623,7 @@
 			(uuid "3be8e408-b640-4b60-9a80-59fb402fc810")
 		)
 		(instances
-			(project "logic_binary"
+			(project "binary"
 				(path "/3dc31096-bf51-4fa5-88fe-04e22503612d"
 					(reference "J12")
 					(unit 1)
@@ -7902,7 +7902,7 @@
 			(uuid "76c5d170-635a-489e-8af6-368b7b4ce552")
 		)
 		(instances
-			(project "logic_binary"
+			(project "binary"
 				(path "/3dc31096-bf51-4fa5-88fe-04e22503612d"
 					(reference "J9")
 					(unit 1)

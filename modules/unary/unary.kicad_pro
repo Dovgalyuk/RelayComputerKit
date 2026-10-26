@@ -452,7 +452,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "logic_binary.kicad_pro",
+    "filename": "unary.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../gerber/rev2/logic_binary",
+      "plot": "../../gerber/rev4/unary",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -623,7 +623,7 @@
   },
   "sheets": [
     [
-      "3dc31096-bf51-4fa5-88fe-04e22503612d",
+      "a614f093-7f36-4f5b-820d-6699ea26b98c",
       "Root"
     ]
   ],

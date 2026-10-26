@@ -4306,7 +4306,7 @@
 			(uuid "443b2391-b245-4b0c-a5b7-a1bd1d0f037c")
 		)
 		(instances
-			(project "logic_unary"
+			(project "unary"
 				(path "/a614f093-7f36-4f5b-820d-6699ea26b98c"
 					(reference "J8")
 					(unit 1)
@@ -5456,7 +5456,7 @@
 			(uuid "eee003b1-a34e-4720-a769-808658d42e3f")
 		)
 		(instances
-			(project "logic_unary"
+			(project "unary"
 				(path "/a614f093-7f36-4f5b-820d-6699ea26b98c"
 					(reference "J7")
 					(unit 1)

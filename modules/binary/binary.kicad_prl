@@ -53,13 +53,14 @@
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "logic_binary.kicad_prl",
+    "filename": "binary.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

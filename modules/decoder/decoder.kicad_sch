@@ -5248,7 +5248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 182.88 180.34 0)
 			(effects
 				(font
@@ -5366,7 +5366,7 @@
 			(uuid "e0cc0d6c-bd77-4021-9c08-f50517ad97be")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "#PWR04")
 					(unit 1)
@@ -5463,13 +5463,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 76.2 97.79 0)
+		(at 78.74 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1484baf1-c58f-43bf-8d5b-e7e6ed19363d")
 		(property "Reference" "J13"
 			(at 77.47 88.9 0)
@@ -5487,8 +5487,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
-			(at 76.2 97.79 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 78.74 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 97.79 0)
+			(at 78.74 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5506,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 97.79 0)
+			(at 78.74 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,7 +5539,7 @@
 			(uuid "79674b37-19b4-4688-a721-3b02d2bfcebd")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "J13")
 					(unit 1)
@@ -5575,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 97.79 97.79 0)
 			(effects
 				(font
@@ -5615,7 +5615,7 @@
 			(uuid "7499d01e-28a1-407f-bc5a-0e1d50161f26")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "J16")
 					(unit 1)
@@ -5719,7 +5719,7 @@
 			(uuid "470350ab-4ebe-414d-9fb4-c4aa8db9963c")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "K1")
 					(unit 1)
@@ -5907,7 +5907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 182.88 227.33 0)
 			(effects
 				(font
@@ -6047,7 +6047,7 @@
 			(uuid "4586e9bd-a591-4fe4-94f0-9cc7b7eaacae")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "J1")
 					(unit 1)
@@ -6375,7 +6375,7 @@
 			(uuid "d8126ab2-f33f-4454-913c-608e2da3c191")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "#PWR01")
 					(unit 1)
@@ -6601,7 +6601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 113.03 165.1 0)
 			(effects
 				(font
@@ -6653,7 +6653,7 @@
 			(uuid "a354790a-0889-4174-a252-8e4b12719547")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "D2")
 					(unit 1)
@@ -6745,7 +6745,7 @@
 			(uuid "5cea14f1-b18c-46f8-9389-d3f1494ef261")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "J10")
 					(unit 1)
@@ -7009,7 +7009,7 @@
 			(uuid "64b8869d-730d-48f0-8274-38e3bc522950")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "J7")
 					(unit 1)
@@ -7075,7 +7075,7 @@
 			(uuid "d8126ab2-f33f-4454-913c-608e2da3c192")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "#PWR02")
 					(unit 1)
@@ -7179,7 +7179,7 @@
 			(uuid "470350ab-4ebe-414d-9fb4-c4aa8db9963e")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "K2")
 					(unit 1)
@@ -7213,7 +7213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 182.88 85.09 0)
 			(effects
 				(font
@@ -7403,7 +7403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 182.88 132.08 0)
 			(effects
 				(font
@@ -7489,7 +7489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 88.9 165.1 0)
 			(effects
 				(font
@@ -7541,7 +7541,7 @@
 			(uuid "a354790a-0889-4174-a252-8e4b12719548")
 		)
 		(instances
-			(project ""
+			(project "decoder"
 				(path "/173a910e-b754-43d5-b389-3f730155bd45"
 					(reference "D1")
 					(unit 1)

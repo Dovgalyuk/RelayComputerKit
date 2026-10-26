@@ -118,7 +118,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../gerber/rev2/logic_binary")
+			(outputdirectory "../../gerber/rev2/binary")
 		)
 	)
 	(net 0 "")
@@ -282,7 +282,7 @@
 		)
 		(path "/0fb86d7d-5327-4669-9578-9e145c4b3142")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -528,7 +528,7 @@
 		)
 		(path "/1c90895e-2f54-4bb6-8d63-5b89683c4cbb")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -799,7 +799,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/417eba31-baba-41f5-9bb1-76cf46c0cb1e")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -1037,7 +1037,7 @@
 		)
 		(path "/7528a6d8-e2b5-44f0-8c03-69d51f15a6c6")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.11 -1.33)
@@ -2028,7 +2028,7 @@
 		)
 		(path "/35f3b308-792c-47e9-b04b-ecb5b10216a6")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -2272,7 +2272,7 @@
 		)
 		(path "/fc895321-bbad-4a69-b494-ccd4a1584a5c")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 -5.21)
@@ -2759,7 +2759,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/f049a616-f0b2-43dc-848a-f45c59b343c5")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -2997,7 +2997,7 @@
 		)
 		(path "/617fa1b6-d0fa-4ff6-8b94-a86ffec74fea")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.11 -1.33)
@@ -3988,7 +3988,7 @@
 		)
 		(path "/5cf274af-5523-402e-93ad-abb1d5464695")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -4231,7 +4231,7 @@
 		)
 		(path "/4327af5f-82a9-4ede-8bee-50f28e976d86")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.27 -1.27)
@@ -5473,7 +5473,7 @@
 		)
 		(path "/610e1613-c13e-4c2a-a7e4-26deaeeba0b7")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -5717,7 +5717,7 @@
 		)
 		(path "/282bb46b-c8ef-43ad-bb0c-77a74fd90ecd")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.11 -1.33)
@@ -6706,7 +6706,7 @@
 		)
 		(path "/b40f60c3-1712-425d-a37e-daa1557dcf43")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.15 -1.38)
@@ -7973,7 +7973,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/2830a43e-042b-4f5a-af39-e87dec223588")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -8238,7 +8238,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/70cdcda8-e1e7-45db-897d-43deeca402ab")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -8478,7 +8478,7 @@
 		)
 		(path "/ef11deeb-58d0-4b51-a912-60d5d0956728")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -8721,7 +8721,7 @@
 		)
 		(path "/a0e69f2a-a38e-4724-835e-ceed507331cd")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -10.09 -1.33)
@@ -9737,7 +9737,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/4a1d0212-a176-4028-a08f-ffb90d67c100")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -10002,7 +10002,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/5237b7e4-d05d-435b-adfc-6065ba82f23c")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -10240,7 +10240,7 @@
 		)
 		(path "/b4189c1a-4bd9-44d6-a5df-b5476dea3f06")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 -5.21)
@@ -10702,7 +10702,7 @@
 		)
 		(path "/7fe41061-361a-445d-bef0-d5e276d00f37")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -10946,7 +10946,7 @@
 		)
 		(path "/328b522b-c7e4-4c73-abed-ab360903b4a9")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 -5.21)
@@ -11406,7 +11406,7 @@
 		)
 		(path "/74182358-fd1f-4dd5-ad0a-321791be5860")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.15 -1.38)
@@ -12646,7 +12646,7 @@
 		)
 		(path "/64b7ae49-c14c-4cb3-82d4-1b29dda39e91")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 -5.21)
@@ -13108,7 +13108,7 @@
 		)
 		(path "/8aba67d6-15ea-422b-bdd9-9fed3c036d42")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.26 -5.91)
@@ -13352,7 +13352,7 @@
 		)
 		(path "/ebd1fc02-089c-4eae-b841-f2114680df28")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 -5.21)
@@ -13839,7 +13839,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/787b7d65-b0ff-4855-b35e-312e6a4f8bce")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -14104,7 +14104,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/85967156-b25a-4aaa-98dd-8535601dcb1f")
 		(sheetname "/")
-		(sheetfile "logic_binary.kicad_sch")
+		(sheetfile "binary.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.04 0)
@@ -14297,18 +14297,6 @@
 		(layer "Edge.Cuts")
 		(uuid "19c7dde6-2c36-40cd-b47c-37d27c13dd89")
 	)
-	(gr_text "Or"
-		(at 138.5 128.425855 0)
-		(layer "F.SilkS")
-		(uuid "4d2ad58d-cfd3-4978-8467-8e6c9136670c")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.5)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "And"
 		(at 93.5 137.425855 0)
 		(layer "F.SilkS")
@@ -14333,14 +14321,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Binary"
-		(at 88.61 66.425855 90)
+	(gr_text "Or"
+		(at 138.5 128.425855 0)
 		(layer "F.SilkS")
-		(uuid "850e728d-a841-4004-8fa8-4087ec817062")
+		(uuid "4d2ad58d-cfd3-4978-8467-8e6c9136670c")
 		(effects
 			(font
-				(size 5 5)
-				(thickness 0.625)
+				(size 4 4)
+				(thickness 0.5)
 			)
 			(justify left bottom)
 		)
@@ -14369,7 +14357,19 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Binary logic board rev6\nP. Dovgalyuk, 2026"
+	(gr_text "Binary"
+		(at 88.61 66.425855 90)
+		(layer "F.SilkS")
+		(uuid "850e728d-a841-4004-8fa8-4087ec817062")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.625)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Binary logic board v1.0\nP. Dovgalyuk, 2026"
 		(at 199.5 150.925855 0)
 		(layer "B.SilkS")
 		(uuid "8480a6bb-23f9-4ecb-9a79-5a57a236f01b")
@@ -14381,10 +14381,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Результат\nИСКЛЮЧАЮЩЕЕ ИЛИ"
-		(at 153.5 163 0)
+	(gr_text "Операнд 1"
+		(at 93 28.5 0)
 		(layer "Dwgs.User")
-		(uuid "261dbff4-1e58-45c5-97c3-b39a53b00f45")
+		(uuid "91d38a25-de3d-438e-ad95-cdcd6fa7e075")
 		(effects
 			(font
 				(size 3 3)
@@ -14393,10 +14393,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Питание"
-		(at 213 98 90)
+	(gr_text "Результат\nИ"
+		(at 104.5 163 0)
 		(layer "Dwgs.User")
-		(uuid "2d3fb263-a32c-4811-ba2a-14a22c79e58a")
+		(uuid "e6da0daa-3fa0-4cbc-837e-b6dbd2e7d894")
 		(effects
 			(font
 				(size 3 3)
@@ -14417,10 +14417,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Операнд 1"
-		(at 93 28.5 0)
+	(gr_text "Результат\nИСКЛЮЧАЮЩЕЕ ИЛИ"
+		(at 153.5 163 0)
 		(layer "Dwgs.User")
-		(uuid "91d38a25-de3d-438e-ad95-cdcd6fa7e075")
+		(uuid "261dbff4-1e58-45c5-97c3-b39a53b00f45")
 		(effects
 			(font
 				(size 3 3)
@@ -14453,10 +14453,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Результат\nИ"
-		(at 104.5 163 0)
+	(gr_text "Питание"
+		(at 213 98 90)
 		(layer "Dwgs.User")
-		(uuid "e6da0daa-3fa0-4cbc-837e-b6dbd2e7d894")
+		(uuid "2d3fb263-a32c-4811-ba2a-14a22c79e58a")
 		(effects
 			(font
 				(size 3 3)
