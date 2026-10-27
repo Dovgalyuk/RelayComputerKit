@@ -48,6 +48,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "#848400FF")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -67,6 +68,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Yellow")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -75,7 +77,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "OSP")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -3072,7 +3074,7 @@
 			(uuid "0a1b60f1-bb55-4253-b639-59c53b0e5703")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3318,7 +3320,7 @@
 			(uuid "5e75e161-e007-4702-8251-926b869d36e3")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3564,7 +3566,7 @@
 			(uuid "a6279759-e4d9-4d44-94ae-f308729151c0")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4630,7 +4632,7 @@
 			(uuid "390ba9a6-4b57-41fa-9c8d-775210ad4094")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6785,7 +6787,7 @@
 			(uuid "d088d386-0fba-4fd6-96d4-9b84a683463f")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7031,7 +7033,7 @@
 			(uuid "73863fa0-3178-4ee4-a352-a880e056dc34")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -48,6 +48,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Red")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -5397,7 +5398,7 @@
 			(uuid "24a6ba65-82a5-433a-bd5b-d0276817428e")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8071,7 +8072,7 @@
 			(uuid "6975fef1-efd2-464a-b8d7-daf81e701e9b")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8573,7 +8574,7 @@
 			(uuid "684ad050-5fbd-4bda-a3ff-b4c1f5901bd3")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8819,7 +8820,7 @@
 			(uuid "65ba4a97-42c3-4846-8332-a413adecec51")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10037,7 +10038,7 @@
 			(uuid "18f77edc-d966-47fe-b2e4-1a94eb5606ce")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10283,7 +10284,7 @@
 			(uuid "0c34cefc-0417-4572-a017-5f3627cf5cb6")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11776,7 +11777,7 @@
 			(uuid "f7951b0f-c2d6-48e5-a8a9-eaa7b4671d56")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12022,7 +12023,7 @@
 			(uuid "bc7f8eb1-597b-428c-9d02-7cf061d1a32d")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)

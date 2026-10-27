@@ -2698,7 +2698,7 @@
 			(uuid "e48d8983-495c-4851-b15b-54871942cfb1")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3403,7 +3403,7 @@
 			(uuid "9e1b7207-3851-47d8-a61d-543438541e97")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4637,7 +4637,7 @@
 			(uuid "031cd98a-0226-4491-9a38-6e2730d8f3e2")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4883,7 +4883,7 @@
 			(uuid "513b61d7-a19c-456f-947d-0f199e1fd65e")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5130,7 +5130,7 @@
 			(uuid "b09a5ca9-8242-4ba4-88e3-6b80e99dc79b")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11306,7 +11306,7 @@
 			(uuid "921dc458-8329-4561-8a33-d36bffb5d3da")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11553,7 +11553,7 @@
 			(uuid "2d41d03c-3ac8-448d-8d66-2e9740cbb2da")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15867,7 +15867,7 @@
 			(uuid "8498a4d5-6139-4557-9e3c-e67cd0f6bb21")
 		)
 		(embedded_fonts no)
-		(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+		(model "${KIPRJMOD}/../../symbols/relay.pretty/relay_socket.step"
 			(offset
 				(xyz 0 0 0)
 			)

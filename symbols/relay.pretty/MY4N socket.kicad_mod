@@ -201,7 +201,7 @@
 		(uuid "e448a349-c802-41c1-bbd5-a6c61ea191cd")
 	)
 	(embedded_fonts no)
-	(model "/home/pasha/simple_cpu/SimpleCPU/components/relay/relay_socket.step"
+	(model "./relay_socket.step"
 		(offset
 			(xyz 0 0 0)
 		)
