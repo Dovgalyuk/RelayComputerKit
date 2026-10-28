@@ -46,6 +46,12 @@ $4$ коммутируемых сигнала к соответствующем�
 
 \subsection{Устройство, угадывающее животных}
 
+Список модулей:
+\begin{itemize}
+    \item Модуль переключателей: \modulesswitches{1} штука
+    \item Дешифратор: \modulesdecoder{1} штука
+\end{itemize}
+
 % a острые зубы
 % b млекопитающее
 
@@ -88,7 +94,14 @@ $4$ коммутируемых сигнала к соответствующем�
 
 \subsection{Ещё больше животных}
 
-Пять дешифраторов для каскадирования
+Список модулей:
+\begin{itemize}
+    \item Модуль переключателей: \modulesswitches{1} штука
+    \item Дешифратор: \modulesdecoder{5} штук
+    \item Кросс-модуль: \modulesmatrix{1} штука
+    \item Модуль шины: \modulesbus{1} штука
+    \item Соединительный шлейф: \modulescable{8} штук
+\end{itemize}
 
 \begin{center}
 \includegraphics[width=0.5\columnwidth]{photo/decoder_cascade.jpg}

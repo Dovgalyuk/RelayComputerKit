@@ -22,7 +22,7 @@
 {\setcounter{adder}{#1}}
 {}
 }
-\newcommand\modulesadder[1]{\incrementadder{#1} #1}
+\newcommand\modulesadder[1]{\incrementadder{#1}$#1$}
 \WithSuffix\newcommand\modulesadder*[1]{\incrementadder{#1}}
 
 \newcounter{binary}
@@ -32,89 +32,98 @@
 {\setcounter{binary}{#1}}
 {}
 }
-\newcommand\modulesbinary[1]{\incrementbinary{#1} #1}
+\newcommand\modulesbinary[1]{\incrementbinary{#1}$#1$}
 \WithSuffix\newcommand\modulesbinary*[1]{\incrementbinary{#1}}
 
 \newcounter{bus}
 \setcounter{bus}{0}
-\newcommand{\modulesbus}[1]{%
+\newcommand{\incrementbus}[1]{%
 \ifthenelse{\thebus < #1}
 {\setcounter{bus}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulesbus*[1]{\modulesbus{#1}}
+\newcommand\modulesbus[1]{\incrementbus{#1}$#1$}
+\WithSuffix\newcommand\modulesbus*[1]{\incrementbus{#1}}
 
 \newcounter{cable}
 \setcounter{cable}{0}
-\newcommand{\modulescable}[1]{%
+\newcommand{\incrementcable}[1]{%
 \ifthenelse{\thecable < #1}
 {\setcounter{cable}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulescable*[1]{\modulescable{#1}}
+\newcommand\modulescable[1]{\incrementcable{#1}$#1$}
+\WithSuffix\newcommand\modulescable*[1]{\incrementcable{#1}}
 
 \newcounter{clock}
 \setcounter{clock}{0}
-\newcommand{\modulesclock}[1]{%
+\newcommand{\incrementclock}[1]{%
 \ifthenelse{\theclock < #1}
 {\setcounter{clock}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulesclock*[1]{\modulesclock{#1}}
+\newcommand\modulesclock[1]{\incrementclock{#1}$#1$}
+\WithSuffix\newcommand\modulesclock*[1]{\incrementclock{#1}}
 
 \newcounter{decoder}
 \setcounter{decoder}{0}
-\newcommand{\modulesdecoder}[1]{%
+\newcommand{\incrementdecoder}[1]{%
 \ifthenelse{\thedecoder < #1}
 {\setcounter{decoder}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulesdecoder*[1]{\modulesdecoder{#1}}
+\newcommand\modulesdecoder[1]{\incrementdecoder{#1}$#1$}
+\WithSuffix\newcommand\modulesdecoder*[1]{\incrementdecoder{#1}}
 
 \newcounter{matrix}
 \setcounter{matrix}{0}
-\newcommand{\modulesmatrix}[1]{%
+\newcommand{\incrementmatrix}[1]{%
 \ifthenelse{\thematrix < #1}
 {\setcounter{matrix}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulesmatrix*[1]{\modulesmatrix{#1}}
+\newcommand\modulesmatrix[1]{\incrementmatrix{#1}$#1$}
+\WithSuffix\newcommand\modulesmatrix*[1]{\incrementmatrix{#1}}
 
 \newcounter{power}
 \setcounter{power}{1}
-\newcommand{\modulespower}[1]{%
+\newcommand{\incrementpower}[1]{%
 \ifthenelse{\thepower < #1}
 {\setcounter{power}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulespower*[1]{\modulespower{#1}}
+\newcommand\modulespower[1]{\incrementpower{#1}$#1$}
+\WithSuffix\newcommand\modulespower*[1]{\incrementpower{#1}}
 
 \newcounter{register}
 \setcounter{register}{0}
-\newcommand{\modulesregister}[1]{%
+\newcommand{\incrementregister}[1]{%
 \ifthenelse{\theregister < #1}
 {\setcounter{register}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulesregister*[1]{\modulesregister{#1}}
+\newcommand\modulesregister[1]{\incrementregister{#1}$#1$}
+\WithSuffix\newcommand\modulesregister*[1]{\incrementregister{#1}}
 
 \newcounter{rom}
 \setcounter{rom}{0}
-\newcommand{\modulesrom}[1]{%
+\newcommand{\incrementrom}[1]{%
 \ifthenelse{\therom < #1}
 {\setcounter{rom}{#1}}
 {}
 }
-\WithSuffix\newcommand\modulesrom*[1]{\modulesrom{#1}}
+\newcommand\modulesrom[1]{\incrementrom{#1}$#1$}
+\WithSuffix\newcommand\modulesrom*[1]{\incrementrom{#1}}
 
 \newcounter{switches}
 \setcounter{switches}{0}
-\newcommand{\modulesswitches}[1]{%
+\newcommand{\incrementswitches}[1]{%
 \ifthenelse{\theswitches < #1}
 {\setcounter{switches}{#1}}
 {}
-$#1$
 }
+\newcommand\modulesswitches[1]{\incrementswitches{#1}$#1$}
+\WithSuffix\newcommand\modulesswitches*[1]{\incrementswitches{#1}}
 
 \newcounter{unary}
 \setcounter{unary}{0}
@@ -123,7 +132,7 @@ $#1$
 {\setcounter{unary}{#1}}
 {}
 }
-\newcommand\modulesunary[1]{\incrementunary{#1} #1}
+\newcommand\modulesunary[1]{\incrementunary{#1}$#1$}
 \WithSuffix\newcommand\modulesunary*[1]{\incrementunary{#1}}
 
 
